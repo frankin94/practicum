@@ -1,0 +1,196 @@
+body,
+h1, h2, h3, h4, h5, h6,
+p,
+ul, ol, li,
+figure, figcaption,
+blockquote, dl, dd {
+  margin: 0;
+  padding: 0;
+}
+
+/* 3. Убираем стандартные маркеры у списков (точки и цифры) */
+ul,
+ol {
+  list-style: none;
+}
+
+/* 4. Убираем подчеркивание у ссылок и делаем их блочными (удобнее верстать) */
+a {
+  text-decoration: none;
+  color: inherit; /* Ссылка наследует цвет родителя, а не становится синей */
+  display: block; /* Опционально: ссылка ведет себя как блок */
+}
+
+/* 5. Картинки не вылезали за пределы контейнера */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block; /* Убирает странный отступ снизу у картинок */
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400; 
+    font-size: 18px;
+    line-height: 100%; 
+    letter-spacing: 0;
+    color: black;
+    font-style: normal;
+}
+address {
+  font-style: normal;
+}
+section{margin-bottom: 20px; position: relative;}
+
+/* Raleway Thin */
+@font-face {
+    font-family: 'Raleway';
+    src: url('/fonts/Raleway-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('/fonts/Raleway-ThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+/* Raleway ExtraLight */
+@font-face {
+    font-family: 'Raleway';
+    src: url('/fonts/Raleway-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('/fonts/Raleway-ExtraLightItalic.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+/* Raleway Light */
+@font-face {
+    font-family: 'Raleway';
+    src: url('/fonts/Raleway-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('/fonts/Raleway-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+/* Raleway Regular */
+@font-face {
+    font-family: 'Raleway';
+    src: url('/fonts/Raleway-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('/fonts/Raleway-Italic.woff') format('woff');
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+}
+
+/* Raleway Medium */
+@font-face {
+    font-family: 'Raleway';
+    src: url('/fonts/Raleway-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('/fonts/Raleway-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+/* Raleway SemiBold */
+@font-face {
+    font-family: 'Raleway';
+    src: url('/fonts/Raleway-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('/fonts/Raleway-SemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+/* Raleway Bold */
+@font-face {
+    font-family: 'Raleway';
+    src: url('/fonts/Raleway-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('/fonts/Raleway-BoldItalic.woff') format('woff');
+    font-weight: 700;
+    font-style: italic;
+    font-display: swap;
+}
+
+/* Raleway ExtraBold */
+@font-face {
+    font-family: 'Raleway';
+    src: url('/fonts/Raleway-ExtraBold.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('/fonts/Raleway-ExtraBoldItalic.woff') format('woff');
+    font-weight: 800;
+    font-style: italic;
+    font-display: swap;
+}
+
+/* Raleway Black */
+@font-face {
+    font-family: 'Raleway';
+    src: url('/fonts/Raleway-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('/fonts/Raleway-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
