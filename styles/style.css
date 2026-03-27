@@ -31,9 +31,6 @@ header {
   margin-left: 15px;
   list-style:circle;
 }
-.header__links-list-item_no-bullit {
-
-}
 .header__link {
   text-decoration: underline;
 }
@@ -180,8 +177,6 @@ address {
   line-height: 100%;
   background: none;
 }
-.aligned-text
-{}
 
 .lots {
   margin-top: 180px;
@@ -206,9 +201,7 @@ address {
 .lots__card-list-item:last-child{
   margin-right: 0px;
 }
-.card-link{
 
-}
 .card {
   position: relative;
   width: 334px;
@@ -230,9 +223,7 @@ address {
   background-position: center;
   background-size: cover;
 }
-.overlay{
-  
-}
+
 .card__title{
   position: relative;
   z-index: 3;
@@ -317,12 +308,7 @@ address {
   text-align: center;
   text-transform: lowercase;
 }
-.footer__menu-list {
 
-}
-.footer__menu-list-item {
-
-}
 .footer__menu-link {
   text-decoration: underline;
 }
@@ -333,13 +319,4 @@ address {
   display: flex;
   justify-content: flex-end;
   gap: 48px;
-}
-.footer__social-list-item {
-
-}
-.footer__social-link {
-
-}
-.footer__social-icon {
-
 }
